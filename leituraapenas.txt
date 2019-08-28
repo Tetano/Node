@@ -1,0 +1,5 @@
+A função de callback é o que será feito após realizada a consulta.
+Dentro do node as estruturas funcionam muito com callback e dentro dele dão uma caracteristica muito particular
+onde será disparada a consulta que não irá travar a aplicação.
+
+callback espera 2 parametros sendo: function(erro,result));
