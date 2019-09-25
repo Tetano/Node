@@ -8,6 +8,15 @@
 	<body>
 
 		<h1>Adicionar notícia</h1>
+		<br/>
+		<form action="/noticias/salvar" method="POST">
+			<label>Título:</label>
+			<input type="text" id="titulo" name="titulo" placeholder="Título da notícia">
+			<br/>
+			<label>Notícia:</label>
+			<textarea id="noticia" name="noticia" rows="10" cols="50"></textarea>
+			<input type="submit" value="Enviar/">
+		</form>
 
 	</body>
 </html>
